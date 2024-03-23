@@ -2,15 +2,6 @@
     margin: 0%;
 }
 
-body {
-
-    /* overflow: hidden;  */
-
-
-    /* remove/add this to view full background image */
-    
-}
-
 .navbar {
 
     background: linear-gradient(180deg, #391090 0%, rgba(57, 16, 144, 0.95) 71.35%, rgba(57, 16, 144, 0.9) 85.94%, rgba(57, 16, 144, 0.85) 100%);
