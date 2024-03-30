@@ -86,22 +86,34 @@
 .portals-container {
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 50px;
-    grid-row-gap: 40px;
-    padding: 7px;
-    align-items: center;
+    grid-column-gap: 9%;
+    padding: 1.2%;
+    text-align: center;
     justify-content: center;
 }
 
+.portals{
+
+    margin-top: 5%;
+}
+
 .portal-option {
-    align-items: center;
-    justify-content: center;
-    width: 15em;
-    height: 3em;
+    align-content: center;
+    width: 18em;
+    height: 4em;
     /* background-color: #f3b058;
     border: 1px solid #1c1a1a; */
     border-radius: 30px;
     background: linear-gradient(261.88deg, rgba(100, 68, 168, 0.8) 0%, rgba(159, 0, 143, 0.8) 90%);
 
-    /* background: linear-gradient(262deg, rgba(231, 132, 41, 0.863) 0%, rgba(248, 167, 67, 0.912) 90%); */
+
+}
+
+.portal-option{
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+    }
 }
