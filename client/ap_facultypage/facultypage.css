@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+}
+
+body{
+    background-image: url(../../Images/background\ \ SOC.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+}
+
+.navbar {
+
+    background: linear-gradient(180deg, #391090 0%, rgba(57, 16, 144, 0.95) 71.35%, rgba(57, 16, 144, 0.9) 85.94%, rgba(57, 16, 144, 0.85) 100%);
+    background-blend-mode: darken;
+    padding: 25px;
+
+}
+
+.navdiv {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navdiv img {
+
+    width: 250px;
+    height: 100px;
+    top: 57px;
+    left: 70px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.navoptn {
+
+    li,
+    a {
+        display: inline-block;
+        text-decoration: none;
+        list-style: none;
+        color: aliceblue;
+        font-size: 25px;
+        margin-right: 2em;
+        margin-top: 3%;
+    }
+} 
